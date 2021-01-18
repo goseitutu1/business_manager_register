@@ -1,0 +1,54 @@
+Bug Fixes:
+    ☐ update payment & sales discount handling. 'total_discount' field showing be total discount after calculation & discount value should be the value (both for percentage & fixed)
+    ☐ fix owing expense update gl entries
+
+Emergency:
+    ✔ apply changes done in product.create view to product.edit @done(20-03-12 11:56)
+    ☐ implement auto making of payment for the customer if he already has overpayment on new sales (web & api)
+
+Admin portal:
+    ✔ remove subscription payments nav item & routes @done(20-04-01 15:45)
+    ✔ businesses @done(20-04-01 10:05)
+        ✔ branches @done(20-04-01 07:42)
+        ✔ subscription @done(20-04-01 07:42)
+        ✔ users (employees) @done(20-04-01 10:03)
+
+Clients:
+    ☐ handle EmployeeController account creating limit with a gate
+    ☐ adverts (client)
+        ☐ show the 'publish/unpublish button' only when payment has been made
+
+Archive:
+  ✔ remind fred of broken datatables export function @done(20-02-24 14:39) @project(Issues)
+  ✔ total profit per day @done(20-02-17 03:39) @project(Reports)
+  ✔ sales report (should query for total items bought, qty and amount related to item bought) @done(20-02-17 03:39) @project(Reports)
+  ✔ total expense amount @done(20-02-17 03:39) @project(Reports)
+  ✔ inventory items number should reduce when sales are done @done(20-02-17 03:39) @project(Todos)
+  ✔ sales manager @done(20-02-17 03:39) @project(Todos)
+  ✔ product @done(20-02-17 03:39) @project(Todos)
+  ✔ creating @done(20-02-17 03:39) @project(Todos)
+  ✔ editing @done(20-02-17 03:39) @project(Todos)
+  ✔ viewing @done(20-02-17 03:39) @project(Todos)
+  ✔ deleting @done(20-02-17 03:39) @project(Todos)
+  ✔ services @done(20-02-17 03:39) @project(Todos)
+  ✔ creating @done(20-02-17 03:39) @project(Todos)
+  ✔ editing @done(20-02-17 03:39) @project(Todos)
+  ✔ viewing @done(20-02-17 03:39) @project(Todos)
+  ✔ deleting @done(20-02-17 03:39) @project(Todos)
+  ✔ debtors list @done(20-02-09 03:16) @project(Reports)
+  ✔ total number of customers @done(20-02-09 03:31) @project(Reports)
+  ✔ total sales amount @done(20-02-09 21:13) @project(Reports)
+  ✔ total number of items in inventory @done(20-02-09 03:22) @project(Reports)
+  ✔ total cost of items in inventory @done(20-02-09 03:25) @project(Reports)
+  ✔ expected profit of things in inventory @done(20-02-09 03:26) @project(Reports)
+  ✔ total number of services in inventory @done(20-02-09 03:27) @project(Reports)
+  ✔ services @done(20-02-12 16:12) @project(Todos)
+  ✔ creating @done(20-02-12 16:12) @project(Todos)
+  ✔ listing @done(20-02-12 16:12) @project(Todos)
+  ✔ viewing @done(20-02-12 16:12) @project(Todos)
+  ✔ deleting @done(20-02-12 16:12) @project(Todos)
+  ✔ products @done(20-02-12 16:53) @project(Todos)
+  ✔ creating @done(20-02-12 16:53) @project(Todos)
+  ✔ listing @done(20-02-12 16:53) @project(Todos)
+  ✔ viewing @done(20-02-12 16:53) @project(Todos)
+  ✔ deleting @done(20-02-12 16:53) @project(Todos)

@@ -1,0 +1,28 @@
+{
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC92MVwvdXNlcnNcL2xvZ2luIiwiaWF0IjoxNTgwNzQ3Mzc0LCJleHAiOjE1ODUwNjczNzQsIm5iZiI6MTU4MDc0NzM3NCwianRpIjoiUldTQW9LUFJ1cnpmSm9adyIsInN1YiI6NzksInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.M_H-HqLkJIvbbVQ0WJ5wky1bNAI-6QFpuCXczHs6Ox0",
+    "token_type": "bearer",
+    "expires_in": 72000,
+    "message": "Login successful",
+    "status_code": 200,
+    "id": "PY6VnKg8TZ8XQW9v",
+    "type": "employee",
+    "businesses": [
+        {
+            "id": "vRRA2ARxT4WX373X",
+            "name": "B2B innovate synergies",
+            "nature": "Company",
+            "location": "Raquelton",
+            "owner": "Oleta Kihn",
+            "currency": {
+                "code": "GHS",
+                "sign": "¢",
+                "name": "Ghana Cedi",
+                "id": "LJlXKgqQHlPE5KEp"
+            },
+            "reg_no": "g",
+            "tax_no": "o",
+            "vat_no": "g",
+            "logo": "http:\/\/localhost:8000\/storage\/logos\/B2B_innovate_synergies_logo.jpg"
+        }
+    ]
+}

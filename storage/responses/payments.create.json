@@ -1,0 +1,26 @@
+{
+  "data": {
+    "id": "NkXGgjoF0y7KgAB",
+    "total_amount": 1946424261166425944444895232,
+    "payment_method": null,
+    "discount_applied": true,
+    "discount_type": "fixed",
+    "discount_value": 44343534.534534536302089691162109375,
+    "type": "owing",
+    "amount_paid": null,
+    "amount_owed": 8988998,
+    "amount_remaining": null,
+    "due_date": "2019-02-02",
+    "shopping_cart_id": "VPW1gOYWiPNJl0NY",
+    "business_id": "vRRA2ARxT4WX373X",
+    "customer": {
+      "id": "o2k8yplXhD5557Q6",
+      "last_name": "Vita Stracke",
+      "first_name": "Enos Mills",
+      "full_name": "Enos Mills Vita Stracke",
+      "phone_number": "###-###-####",
+      "email": "user52346@gmail.com",
+      "business_id": "vRRA2ARxT4WX373X"
+    }
+  }
+}

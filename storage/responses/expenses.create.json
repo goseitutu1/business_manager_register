@@ -1,0 +1,17 @@
+{
+  "data": {
+    "id": "oVxnor7AsrBw0mLw",
+    "due_date": "2019-01-01",
+    "type": "paid",
+    "payment_date": "2019-01-01",
+    "description": "sdfasdfasdf",
+    "category": "Operational Services",
+    "total_amount": 3443,
+    "amount_paid": 3443,
+    "amount_owed": 33323,
+    "amount_remaining": 0,
+    "vendor_id": null,
+    "business_id": "vRRA2ARxT4WX373X",
+    "created_at": "2020-02-10"
+  }
+}
