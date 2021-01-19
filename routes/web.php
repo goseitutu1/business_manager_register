@@ -15,11 +15,11 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-//Route::permanentRedirect('/', '/welcome');
+Route::permanentRedirect('/', '/welcome');
 
-//Route::get('/', 'WelcomeController@index')->name('welcome.index');
-Route::permanentRedirect('/', '/register');
-//Route::view('/myregister', 'auth.register', ['name' => 'myregister']);
+Route::get('/', 'WelcomeController@index')->name('welcome.index');
+// Route::permanentRedirect('/','/register');
+Route::view('/myregister', 'auth.register', ['name' => 'myregister']);
 Route::get('/myregister',function (){
     return view('auth.register');
 })->name('myregister');
@@ -39,6 +39,11 @@ Route::get('/post-login', function () {
     }
 })->middleware('auth');
 
+
+Route::get('/login',function (){
+    return view('login');
+});
+
 // dd(Request::is('admin/*'));
 // if (Request::is('admin/*')) {
 require __DIR__ . '/admin_web.php';
@@ -46,3 +51,6 @@ require __DIR__ . '/admin_web.php';
 require __DIR__ . '/clients_web.php';
 // }
 
+// Route::get('/register',function (){
+//     return view('auth.register');
+// });
