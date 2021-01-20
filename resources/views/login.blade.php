@@ -86,11 +86,17 @@
                 </div>
             </article>
 
-            <form class="panel__body" action="{{ route('login') }}" method="POST" id="loginForm">
+            <form class="panel__body" action="{{ url('/credentials') }}" method="POST" id="loginForm">
+            {{-- <form class="panel__body" action="{{ route('login') }}" method="POST" id="loginForm">     --}}
                 @csrf
                 <div class="sign text-center">
                     <p class="sign__input" style="margin-top: -2em">Sign in to continue</p>
-                    @if($errors)
+                    @if($message = Session::get('error'))
+                    <div class="alert alert-danger" role="alert">
+                        {{$message}}
+                    </div>
+                    @endif
+                    @if(count($errors) > 0)
                         @foreach ($errors->all() as $message)
                             <div class="alert alert-danger" role="alert">
                                 {{$message}}
@@ -98,10 +104,12 @@
                         @endforeach
                     @endif
                     <div class="form-group">
-                        <input type="email" class="form-control" name="email" placeholder="Enter your email" value="{{ old('email') }}">
+                        <input type="email" class="form-control" name="Email" placeholder="Enter your email">
+                        {{-- <input type="email" class="form-control" name="Email" placeholder="Enter your email" value="{{ old('email') }}"> --}}
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" name="password" placeholder="Enter your password" value="{{ old('password') }}">
+                        <input type="password" class="form-control" name="password" placeholder="Enter your password">
+                        {{-- <input type="password" class="form-control" name="Password" placeholder="Enter your password" value="{{ old('password') }}"> --}}
                     </div>
                 </div>
 
