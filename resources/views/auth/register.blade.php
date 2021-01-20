@@ -169,7 +169,7 @@
                             </div>
                         </div>
 
-                            <label for="confirm_password" class="" style="float: left">Confirm password <strong style="color:red">*</strong></label>
+                            <label for="confirm_password" class="" style="float: left">Confirm password<strong style="color:red">*</strong></label>
                             <div class="input-group">
                                 <input type="password" class="form-control password" name="confirmed"
                                     id="confirm_password" value="{{ old('confirmed') }}" placeholder="Confirm Password"
@@ -212,6 +212,9 @@
                         <div class="option__item">
                             <button type="submit" class="button">Register</button>
                         </div>
+                        {{-- <div class="option__item">
+                            <button type="submit" class="button">Log out</button>
+                        </div> --}}
 {{--                        <div class="option__item">--}}
 {{--                            <a href="{{ route('login') }}" class="link-text">Have an account? Login</a>--}}
 {{--                        </div>--}}
